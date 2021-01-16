@@ -101,7 +101,7 @@ void gsCoreInitialize()
 
 		// initialize strings that correlate to response header entries
 		strcpy(aCore->authError, "");
-		aCore->authErrorCode = 0;
+		aCore->authErrorCode = (GSAuthErrorCode)0;
 		strcpy(aCore->sessionToken, "");
 		strcpy(aCore->gameId, "");
 		strcpy(aCore->profileId, "");
